@@ -1,9 +1,8 @@
 <!DOCTYPE html>
-
-<html lang="en">
-    <head>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Wild Animal Mini-Zoo</title> 
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="./Wild Animal Mini-Zoo_files/style.css">
     </head>
     <body>
         <header>
@@ -19,9 +18,9 @@
         </p>
            <ul>
             <li>Ollie</li>
-            <img src="./images/ollie.jpg" alt="Photo of Ollie the Bear" width="350" height="auto">
+            <img src="./Wild Animal Mini-Zoo_files/ollie.jpg" alt="Photo of Ollie the Bear" width="350" height="auto">
             <li>Mona</li>
-            <img src="./images/mona.webp" alt="Photo of Mona the bear" width="350" height="auto">
+            <img src="./Wild Animal Mini-Zoo_files/mona.webp" alt="Photo of Mona the bear" width="350" height="auto">
            </ul>
         </section>
 
@@ -33,9 +32,9 @@
            </p>
            <ul>
             <li>Frankie</li>
-            <img src="./images/frankie.jpg" alt="Photo of Frankie the Giraffe" width="350" height="auto">
+            <img src="./Wild Animal Mini-Zoo_files/frankie.jpg" alt="Photo of Frankie the Giraffe" width="350" height="auto">
             <li>Coconut</li>
-            <img src="./images/coconut.webp" alt="Photo of Coconut the Giraffe" width="350" height="auto">
+            <img src="./Wild Animal Mini-Zoo_files/coconut.webp" alt="Photo of Coconut the Giraffe" width="350" height="auto">
            </ul>
         </section>
 
@@ -48,9 +47,9 @@
             </p>
             <ul>
                 <li>Mella</li>
-                <img src="./images/mella.webp" alt="Photo of Mella the Lion" width="350" height="auto">
+                <img src="./Wild Animal Mini-Zoo_files/mella.webp" alt="Photo of Mella the Lion" width="350" height="auto">
                 <li>Karl</li>
-                <img src="./images/karl.jpeg" alt="Photo of Karl the Lion" width="350" height="auto">
+                <img src="./Wild Animal Mini-Zoo_files/karl.jpeg" alt="Photo of Karl the Lion" width="350" height="auto">
             </ul>
         </section>
         
@@ -64,11 +63,11 @@
             </p>
             <ul>
                 <li>Cookie</li>
-                <img src="/images/cookie.jpeg" alt="Photo of Cookie the Monkey" width="350" height="auto">
+                <img src="./Wild Animal Mini-Zoo_files/cookie.jpeg" alt="Photo of Cookie the Monkey" width="350" height="auto">
                 <li>Earl</li>
-                <img src="./images/earl.webp" alt="Photo of Earl the Monkey" width="350" height="auto">
+                <img src="./Wild Animal Mini-Zoo_files/earl.webp" alt="Photo of Earl the Monkey" width="350" height="auto">
                 <li>Banana Pudding</li>
-                <img src="./images/pudding.jpeg" alt="Photo of Banana Pudding" width="350" height="auto">
+                <img src="./Wild Animal Mini-Zoo_files/pudding.jpeg" alt="Photo of Banana Pudding" width="350" height="auto">
             </ul>
         </section>
         
@@ -81,12 +80,50 @@
             </p>
             <ul>
                 <li>Wren</li>
-                <img src="./images/wren.jpeg" alt="Photo of Wren the Alligator" width="350" height="auto">
+                <img src="./Wild Animal Mini-Zoo_files/wren.jpeg" alt="Photo of Wren the Alligator" width="350" height="auto">
                 <li>Aspen</li>
-                <img src="./images/aspen.jpg" alt="Photo of Aspen the Alligator" width="350" height="auto">
+                <img src="./Wild Animal Mini-Zoo_files/aspen.jpg" alt="Photo of Aspen the Alligator" width="350" height="auto">
                 <li>Mika</li>
-                <img src="./images/mika.jpg" alt="Photo of Mika the Alligator" width="350" height="auto">
+                <img src="./Wild Animal Mini-Zoo_files/mika.jpg" alt="Photo of Mika the Alligator" width="350" height="auto">
             </ul>
         </section>
-    </body>
-</html>
+    <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
